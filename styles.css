@@ -362,6 +362,12 @@ article .icon {
   height: 90%;
 }
 
+.project-img-1 {
+  border-radius: 2rem;
+  width: 65%;
+  height: 65%;
+}
+
 .project-title {
   margin: 1rem;
   color: black;
