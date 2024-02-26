@@ -1,21 +1,22 @@
 @media screen and (max-width: 2560px) {
   .about-containers {
     flex-wrap: wrap;
-    margin-bottom:5rem;
+    margin-bottom:2rem;
   }
   .section-container {
-    padding-bottom: 20rem;
+    padding-bottom: 40rem;
     gap: 4rem;
     height: 80%;
   }
   .arrow-projects{
     position: absolute;
     right:-5rem;
-    padding-top:55rem;
+    padding-top:57.5rem;
   }
 
   #about{
-    padding-top:15rem;
+    padding-top:20rem;
+
   }
 
   #projects{
@@ -25,8 +26,12 @@
 }
 
 @media screen and (max-width: 1920px) {
+
+  #contact{
+    margin-top:5rem;
+  }
   .section-container {
-    padding-bottom: 20rem;
+    padding-bottom: 60rem;
     gap: 4rem;
     height: 80%;
   }
@@ -34,8 +39,25 @@
   .arrow-projects{
     position: absolute;
     right:-5rem;
-    padding-top:40rem;
+    padding-top:57.5rem;
   }
+
+  .experienceDiv{
+    display:flex;
+
+  }
+
+  .about-containers {
+    flex-wrap: wrap;
+    margin-bottom:1rem;
+  }
+
+  .arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: -10rem;
+  }
+
 }
 
 @media screen and (max-width: 1400px) {
