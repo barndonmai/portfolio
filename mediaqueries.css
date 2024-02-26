@@ -155,14 +155,24 @@
 }
 
 @media screen and (max-width: 600px) {
+  #about {
+    padding-top:5rem;
+    position: relative;
+  }
+  .section-container {
+    padding-bottom: 0rem;
+    gap: 4rem;
+    height: 80%;
+  }
+
   #contact,
   footer {
     height: 40vh;
   }
 
   #profile {
+    margin-top:5rem;
     height: 83vh;
-    margin-bottom: 0;
   }
 
   article {
@@ -172,6 +182,7 @@
   footer,
   nav {
     height: fit-content;
+    margin-top:2rem;
     margin-bottom: 2rem;
   }
 
@@ -208,6 +219,10 @@
     width: auto;
     height: 46vw;
     justify-content: center;
+  }
+
+  .section-container{
+    padding:0;
   }
 
   .section_text__p2 {
